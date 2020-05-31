@@ -1,0 +1,34 @@
+{
+  "Front-end": {
+    "name": "Front-end",
+    "skills": ["React", "Redux", "JavaScript", "HTML5", "CSS", "LESS"]
+  },
+  "Back-end": {
+    "name": "Back-end",
+    "skills": [
+      "Node.js",
+      "Knex",
+      "SQL",
+      "PostgreSQL",
+      "GraphQL",
+      "Express",
+      "Hapi"
+    ]
+  },
+  "Tools": {
+    "name": "Tools",
+    "skills": [
+      "Docker",
+      "Linux",
+      "Windows",
+      "Git",
+      "Jira",
+      "GitHub Projects",
+      "Cloud Hosting"
+    ]
+  },
+  "Other": {
+    "name": "Other",
+    "skills": ["FP", "OOP", "Python", "Webpack", "Parcel", "TDD", "Jest"]
+  }
+}
