@@ -1,7 +1,20 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
+
+import NavBar from "./components/molecules/NavBar";
+import HomePage from "./components/organisms/HomePage";
 
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <NavBar />
+      <Switch>
+        <Route path="/">
+          <HomePage />
+        </Route>
+      </Switch>
+    </div>
+  );
 };
 
 export default App;
