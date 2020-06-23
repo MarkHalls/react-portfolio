@@ -8,6 +8,9 @@
     "build": "parcel build ./src/static/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "staticFiles": {
+    "staticPath": "src/static/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mark-halls/react-portfolio.git"
@@ -26,5 +29,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0"
+  },
+  "dependencies": {
+    "parcel-plugin-static-files-copy": "^2.4.3"
   }
 }
