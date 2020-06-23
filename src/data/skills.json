@@ -2,48 +2,121 @@
   "Front-end": {
     "name": "Front-end",
     "skills": [
-      { "name": "React", "logo": "react-logo.svg" },
-      { "name": "Redux", "logo": "redux-logo.svg" },
-      { "name": "JavaScript", "logo": "javascript-logo.svg" },
-      { "name": "HTML5", "logo": "HTML5.svg" },
-      { "name": "CSS", "logo": "css3-icon.svg" },
-      { "name": "LESS", "logo": "less_logo.png" }
+      {
+        "name": "React",
+        "logo": "react-logo.svg"
+      },
+      {
+        "name": "Redux",
+        "logo": "redux-logo.svg"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "JavaScript-logo.png"
+      },
+      {
+        "name": "HTML5",
+        "logo": "HTML5_Badge.svg"
+      },
+      {
+        "name": "CSS",
+        "logo": "css3.svg"
+      },
+      {
+        "name": "LESS",
+        "logo": "less_logo.png"
+      }
     ]
   },
   "Back-end": {
     "name": "Back-end",
     "skills": [
-      { "name": "Node.js", "logo": "" },
-      { "name": "Knex", "logo": "knex_logo.png" },
-      { "name": "SQL", "logo": "" },
-      { "name": "PostgreSQL", "logo": "" },
-      { "name": "GraphQL", "logo": "" },
-      { "name": "Express", "logo": "" },
-      { "name": "Hapi", "logo": "" }
+      {
+        "name": "Node.js",
+        "logo": "nodejs-logo.svg"
+      },
+      {
+        "name": "Knex",
+        "logo": "knex_logo.png"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "postgresql_elephant.png"
+      },
+      {
+        "name": "GraphQL",
+        "logo": "graphql_logo.svg"
+      },
+      {
+        "name": "Hapi",
+        "logo": "hapi.svg"
+      }
     ]
   },
   "Tools": {
     "name": "Tools",
     "skills": [
-      { "name": "Docker", "logo": "" },
-      { "name": "Linux", "logo": "" },
-      { "name": "Windows", "logo": "" },
-      { "name": "Git", "logo": "" },
-      { "name": "Jira", "logo": "" },
-      { "name": "GitHub Projects", "logo": "" },
-      { "name": "Cloud Hosting", "logo": "" }
+      {
+        "name": "Docker",
+        "logo": "docker-logo.png"
+      },
+      {
+        "name": "Linux",
+        "logo": "Tux.svg"
+      },
+      {
+        "name": "Windows",
+        "logo": "Windows_logo_-_2012.svg"
+      },
+      {
+        "name": "Git",
+        "logo": "Git-Icon-1788C.png"
+      },
+      {
+        "name": "Jira",
+        "logo": "Jira Software-blue.svg"
+      },
+      {
+        "name": "GitHub Projects",
+        "logo": "GitHub-Mark-120px-plus.png"
+      },
+      {
+        "name": "Cloud Hosting",
+        "logo": "cloud.png"
+      }
     ]
   },
   "Other": {
     "name": "Other",
     "skills": [
-      { "name": "FP", "logo": "" },
-      { "name": "OOP", "logo": "" },
-      { "name": "Python", "logo": "" },
-      { "name": "Webpack", "logo": "" },
-      { "name": "Parcel", "logo": "" },
-      { "name": "TDD", "logo": "" },
-      { "name": "Jest", "logo": "" }
+      {
+        "name": "FP",
+        "logo": ""
+      },
+      {
+        "name": "OOP",
+        "logo": ""
+      },
+      {
+        "name": "Python",
+        "logo": ""
+      },
+      {
+        "name": "Webpack",
+        "logo": ""
+      },
+      {
+        "name": "Parcel",
+        "logo": ""
+      },
+      {
+        "name": "TDD",
+        "logo": ""
+      },
+      {
+        "name": "Jest",
+        "logo": ""
+      }
     ]
   }
 }
