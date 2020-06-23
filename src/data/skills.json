@@ -4,27 +4,33 @@
     "skills": [
       {
         "name": "React",
-        "logo": "react-logo.svg"
+        "logo": "react-logo.svg",
+        "url": "https://reactjs.org"
       },
       {
         "name": "Redux",
-        "logo": "redux-logo.svg"
+        "logo": "redux-logo.svg",
+        "url": "https://redux.js.org"
       },
       {
         "name": "JavaScript",
-        "logo": "JavaScript-logo.png"
+        "logo": "JavaScript-logo.png",
+        "url": "https://www.javascript.com"
       },
       {
         "name": "HTML5",
-        "logo": "HTML5_Badge.svg"
+        "logo": "HTML5_Badge.svg",
+        "url": "https://dev.w3.org/html5/spec-LC"
       },
       {
         "name": "CSS",
-        "logo": "css3.svg"
+        "logo": "css3.svg",
+        "url": "https://www.w3.org/Style/CSS/Overview.en.html"
       },
       {
         "name": "LESS",
-        "logo": "less_logo.png"
+        "logo": "less_logo.png",
+        "url": "http://lesscss.org"
       }
     ]
   },
@@ -33,23 +39,28 @@
     "skills": [
       {
         "name": "Node.js",
-        "logo": "nodejs-logo.svg"
+        "logo": "nodejs-logo.svg",
+        "url": "https://nodejs.org"
       },
       {
         "name": "Knex",
-        "logo": "knex_logo.png"
+        "logo": "knex_logo.png",
+        "url": "http://knexjs.org"
       },
       {
         "name": "PostgreSQL",
-        "logo": "postgresql_elephant.png"
+        "logo": "postgresql_elephant.png",
+        "url": "https://www.postgresql.org"
       },
       {
         "name": "GraphQL",
-        "logo": "graphql_logo.svg"
+        "logo": "graphql_logo.svg",
+        "url": "https://graphql.org"
       },
       {
         "name": "Hapi",
-        "logo": "hapi.svg"
+        "logo": "hapi.svg",
+        "url": "https://hapi.dev"
       }
     ]
   },
@@ -58,31 +69,38 @@
     "skills": [
       {
         "name": "Docker",
-        "logo": "docker-logo.png"
+        "logo": "docker-logo.png",
+        "url": "https://www.docker.com"
       },
       {
         "name": "Linux",
-        "logo": "Tux.svg"
+        "logo": "Tux.svg",
+        "url": "https://www.linux.org"
       },
       {
         "name": "Windows",
-        "logo": "Windows_logo_-_2012.svg"
+        "logo": "Windows_logo_-_2012.svg",
+        "url": "https://www.microsoft.com/en-us/windows"
       },
       {
         "name": "Git",
-        "logo": "Git-Icon-1788C.png"
+        "logo": "Git-Icon-1788C.png",
+        "url": "https://git-scm.com"
       },
       {
         "name": "Jira",
-        "logo": "Jira Software-blue.svg"
+        "logo": "Jira Software-blue.svg",
+        "url": "https://www.atlassian.com/software/jira"
       },
       {
         "name": "GitHub Projects",
-        "logo": "GitHub-Mark-120px-plus.png"
+        "logo": "GitHub-Mark-120px-plus.png",
+        "url": "https://github.com/features/project-management"
       },
       {
         "name": "Cloud Hosting",
-        "logo": "cloud.png"
+        "logo": "cloud.png",
+        "url": ""
       }
     ]
   },
@@ -91,31 +109,38 @@
     "skills": [
       {
         "name": "FP",
-        "logo": ""
+        "logo": "fp.svg",
+        "url": "https://www.geeksforgeeks.org/functional-programming-paradigm"
       },
       {
         "name": "OOP",
-        "logo": ""
+        "logo": "OOP.png",
+        "url": "https://www.geeksforgeeks.org/oops-object-oriented-design"
       },
       {
         "name": "Python",
-        "logo": ""
+        "logo": "python-logo-generic.svg",
+        "url": "https://www.python.org"
       },
       {
         "name": "Webpack",
-        "logo": ""
+        "logo": "webpack-icon.svg",
+        "url": "https://webpack.js.org"
       },
       {
         "name": "Parcel",
-        "logo": ""
+        "logo": "parcel.png",
+        "url": "https://parceljs.org"
       },
       {
         "name": "TDD",
-        "logo": ""
+        "logo": "tdd.png",
+        "url": "https://en.wikipedia.org/wiki/Test-driven_development"
       },
       {
         "name": "Jest",
-        "logo": ""
+        "logo": "jest-logo.png",
+        "url": "https://jestjs.io"
       }
     ]
   }
