@@ -29,11 +29,11 @@ const SkillList = ({ className }) => {
           return (
             <>
               <h3>{skillsData[category].name}</h3>
-              <ol>
+              <ul>
                 {skillsData[category].skills.map((skill) => (
-                  <Skill skill={skill.name} key={skill.name} />
+                  <Skill skill={skill} key={skill.name} />
                 ))}
-              </ol>
+              </ul>
             </>
           );
         })}

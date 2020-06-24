@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <NavBar />
       <Switch>
-        <Route path="/">
+        <Route exact path="/">
           <HomePage />
         </Route>
       </Switch>

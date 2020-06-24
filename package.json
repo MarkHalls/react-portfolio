@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel ./src/static/index.html",
-    "build": "parcel build ./src/static/index.html",
+    "start": "parcel ./src/public/index.html",
+    "build": "parcel build ./src/public/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "staticFiles": {
-    "staticPath": "src/static/"
+    "staticPath": [
+      "/src/static"
+    ],
+    "watcherGlob": "**"
   },
   "repository": {
     "type": "git",
