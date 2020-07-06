@@ -22,22 +22,22 @@ const SkillList = ({ className }) => {
 
   console.log(skillsCategory);
   return (
-    <>
-      <h2 id="skills">Skills</h2>
+    <div className={classNames(`${className}`)}>
+      <h2 id="skills" className={classNames(`${className}__header`)}>Skills</h2>
       {skillsCategory &&
         skillsCategory.map((category) => {
           return (
             <>
-              <h3>{skillsData[category].name}</h3>
+              <h3 className={classNames(`${className}__category`)}>{skillsData[category].name}</h3>
               <ul>
                 {skillsData[category].skills.map((skill) => (
-                  <Skill skill={skill} key={skill.name} />
+                  <Skill skill={skill} key={skill.name} className={classNames(`${className}--skill`)} />
                 ))}
               </ul>
             </>
           );
         })}
-    </>
+    </div>
   );
 };
 

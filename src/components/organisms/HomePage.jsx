@@ -7,9 +7,7 @@ import "./HomePage.less";
 
 const HomePage = ({ className }) => {
   return (
-    <div className={classNames(className)}>
-      <SkillList />
-    </div>
+    <SkillList className={classNames(`skill-list`)} />
   );
 };
 
