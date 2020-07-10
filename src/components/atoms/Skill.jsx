@@ -8,7 +8,10 @@ const Skill = ({ className, skill }) => {
 
   return (
     <li className={classNames(className)} key={name}>
-      <img src={`/img/${logo}`} className={classNames(`${className}__img`)} />
+      <div className={classNames(`${className}--img-container`)}>
+
+        <img src={`/img/${logo}`} className={classNames(`${className}--img-container__img`)} />
+      </div>
       <p className={classNames(`${className}__name`)}>{name}</p>
     </li>
   );
