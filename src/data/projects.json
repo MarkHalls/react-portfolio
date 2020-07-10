@@ -1,29 +1,29 @@
 {
-    "learnoer": {
-        "name": "Learn OER",
-        "role": "Front-end / Back-end Developer",
-        "description": "Learn OER is a search engine for finding free to read books online. Search for fiction, non-fiction and textbooks and the odds are good that you'll find a result that is freely available. Either to check out from an online library or download from the public domain.",
-        "contribution": "Learn OER is a personal project of mine inspired by a Lambda School assignment. I created everything from the UI to the backend API.",
-        "url": "learnoer.com",
-        "img": "learnoer.com.png",
-        "order": 1
-    },
-    "trashpanda": {
-        "name": "Trash Panda",
-        "role": "Front-end / Back-end Developer, Project Coordinator",
-        "description": "Trash Panda helps you figure out what to do with any kind of trash you may encounter in your life. Using a category search or image recognition, Trash Panda makes it easy to find out how and where to recycle your items.",
-        "contribution": "My main contributions to this project were the home page UI implementation, camera interface, the backend graphql structure and integration with the custom ML image categorization API.",
-        "url": "thetrashpanda.com",
-        "img": "thetrashpanda.png",
-        "order": 2
-    },
-    "devdesk": {
-        "name": "Dev-Desk Queue",
-        "role": "Back-end Developer",
-        "description": "Dev-Desk Queue is a proof of concept issue tracker to allow students and helpers submit and receive support on whatever problem they are having.",
-        "contribution": "My main contribution to Dev-Desk was the back-end API design and implementation.",
-        "url": "https://documenter.getpostman.com/view/9236242/SWLfbT6R?version=latest",
-        "img": "dev-desk.png",
-        "order": 3
-    }
+  "learnoer": {
+    "name": "Learn OER",
+    "role": "Front-end / Back-end Developer",
+    "description": "Learn OER is a search engine for finding free to read books online. Search for fiction, non-fiction and textbooks and the odds are good that you'll find a result that is freely available. Either to check out from an online library or download from the public domain.",
+    "contribution": "Learn OER is a personal project of mine inspired by a Lambda School assignment. I created everything from the UI to the backend API.",
+    "url": "learnoer.com",
+    "img": "learnoer.com.png",
+    "order": 1
+  },
+  "trashpanda": {
+    "name": "Trash Panda",
+    "role": "Front-end / Back-end Developer, Project Coordinator",
+    "description": "Trash Panda helps you figure out what to do with any kind of trash you may encounter in your life. Using a category search or image recognition, Trash Panda makes it easy to find out how and where to recycle your items.",
+    "contribution": "My main contributions to this project were the home page UI implementation, camera interface, the backend graphql structure and integration with the custom ML image categorization API.",
+    "url": "thetrashpanda.com",
+    "img": "thetrashpanda.png",
+    "order": 2
+  },
+  "devdesk": {
+    "name": "Dev-Desk Queue",
+    "role": "Back-end Developer",
+    "description": "Dev-Desk Queue is a proof of concept issue tracker to allow students and helpers submit and receive support on whatever problem they are having.",
+    "contribution": "My main contribution to Dev-Desk was the back-end API design and implementation.",
+    "url": "https://documenter.getpostman.com/view/9236242/SWLfbT6R?version=latest",
+    "img": "dev-desk.png",
+    "order": 3
+  }
 }
