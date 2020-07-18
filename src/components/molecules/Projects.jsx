@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import classNames from "classnames";
 
-import ProjectCard from "../atoms/ProjectCard";
+import ProjectCard from "./ProjectCard";
 
 import projectData from "../../data/projects.json";
 import "./Projects.less";
@@ -21,9 +21,12 @@ const Projects = ({ className }) => {
   console.log(myProjects);
   return (
     <div className={classNames("projects")}>
-      <h2 className={`projects--header`}>Projects</h2>
       {myProjects?.map((project) => (
-        <ProjectCard project={project} className={`projects--project`} />
+        <ProjectCard
+          project={project}
+          key={project.name}
+          className={`projects--project`}
+        />
       ))}
     </div>
   );
