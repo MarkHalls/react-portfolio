@@ -3,20 +3,9 @@ import classNames from "classnames";
 
 import "./Skill.less";
 
-const Skill = ({ className, skill }) => {
-  const { name, logo, url } = skill;
-
-  return (
-    <li className={classNames(className)} key={name}>
-      <div className={classNames(`${className}--img-container`)}>
-        <img
-          src={`/img/${logo}`}
-          className={classNames(`${className}--img-container__img`)}
-        />
-      </div>
-      <p className={classNames(`${className}__name`)}>{name}</p>
-    </li>
-  );
+const Skill = ({ skill }) => {
+  const { name } = skill;
+  return <p className={classNames(`skill__name`)}>{name}</p>;
 };
 
 export default Skill;

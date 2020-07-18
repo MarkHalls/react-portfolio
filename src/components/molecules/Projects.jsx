@@ -21,6 +21,7 @@ const Projects = ({ className }) => {
   console.log(myProjects);
   return (
     <div className={classNames("projects")}>
+      <h2 className={`projects--header`}>Projects</h2>
       {myProjects?.map((project) => (
         <ProjectCard project={project} className={`projects--project`} />
       ))}

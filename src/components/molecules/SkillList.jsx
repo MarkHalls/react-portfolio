@@ -9,54 +9,44 @@ import "./SkillList.less";
 
 const SkillList = ({ className }) => {
   const [skillsCategory, setSkillsCategory] = useState();
-  const [skillsList, setSkillsList] = useState();
 
   useEffect(() => {
     const mySkillsCategory = [];
-    const mySkills = [];
 
     for (const skillCategory in skillsData) {
-      mySkillsCategory.push(skillCategory);
-
-      if (skillCategory === "Front-end" || skillCategory === "Back-end") {
-        mySkills.push(...skillsData[skillCategory].skills);
+      if (
+        skillCategory === "Front-end" ||
+        skillCategory === "Back-end" ||
+        skillCategory === "Tools"
+      ) {
+        mySkillsCategory.push(skillCategory);
       }
     }
 
     setSkillsCategory(mySkillsCategory);
-    setSkillsList(mySkills);
   }, []);
 
   return (
     <div className={classNames(`${className}`)}>
-      <h2 id="skills" className={classNames(`${className}__header`)}>
-        Skills
-      </h2>
-      <ul>
-        {skillsList &&
-          skillsList.map((skill) => (
-            <Skill
-              skill={skill}
-              key={skill.name}
-              className={classNames(`${className}--skill`)}
-            />
-          ))}
-      </ul>
-      {/* {skillsCategory &&
+      {skillsCategory &&
         skillsCategory.map((category) => {
           return (
-            <>
-              <h3 className={classNames(`${className}__category`)}>{skillsData[category].name}</h3>
-              <ul>
-                {
-                  skillsData[category].skills.map((skill) => (
-                    <Skill skill={skill} key={skill.name} className={classNames(`${className}--skill`)} />
-                  ))
-                }
-              </ul>
-            </>
+            <div className={classNames(`${className}--category`)}>
+              <h3 className={classNames(`${className}--category__name`)}>
+                {skillsData[category].name}
+              </h3>
+              <div className={classNames(`${className}--category__skills`)}>
+
+              {skillsData[category].skills.map((skill) => (
+                <Skill
+                skill={skill}
+                key={skill.name}
+                />
+                ))}
+                </div>
+            </div>
           );
-        })} */}
+        })}
     </div>
   );
 };

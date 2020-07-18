@@ -9,11 +9,11 @@ import "./HomePage.less";
 
 const HomePage = ({ className }) => {
   return (
-    <>
-      <About />
+    <div className={classNames("homepage")}>
+      {/* <About /> */}
       <SkillList className={classNames(`skill-list`)} />
       <Projects />
-    </>
+    </div>
   );
 };
 
