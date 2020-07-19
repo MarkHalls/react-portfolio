@@ -31,19 +31,18 @@ const SkillList = ({ className }) => {
       {skillsCategory &&
         skillsCategory.map((category) => {
           return (
-            <div className={classNames(`${className}--category`)}>
+            <div
+              key={category}
+              className={classNames(`${className}--category`)}
+            >
               <h3 className={classNames(`${className}--category__name`)}>
                 {skillsData[category].name}
               </h3>
               <div className={classNames(`${className}--category__skills`)}>
-
-              {skillsData[category].skills.map((skill) => (
-                <Skill
-                skill={skill}
-                key={skill.name}
-                />
+                {skillsData[category].skills.map((skill) => (
+                  <Skill skill={skill} key={skill.name} />
                 ))}
-                </div>
+              </div>
             </div>
           );
         })}

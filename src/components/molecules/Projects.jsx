@@ -18,7 +18,6 @@ const Projects = ({ className }) => {
     setMyProjects(projects.sort((a, b) => a.order - b.order));
   }, []);
 
-  console.log(myProjects);
   return (
     <div className={classNames("projects")}>
       {myProjects?.map((project) => (
