@@ -14,6 +14,9 @@ const NavBar = () => {
         <h2 className={classNames(`${className}__about__role`)}>
           Full-Stack Web Developer
         </h2>
+        <h2 className={classNames(`${className}__about__me`)}>
+          I love open source and have a passion for functional programming.
+        </h2>
       </div>
       <div className={classNames(`${className}__social`)}>
         <SocialLink
