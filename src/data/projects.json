@@ -18,7 +18,7 @@
     "url": "https://thetrashpanda.com",
     "github-fe": "https://github.com/Lambda-School-Labs/trashpanda-fe",
     "github-be": "https://github.com/Lambda-School-Labs/trashpanda-be",
-    "img": "trashpanda-iphone.svg",
+    "img": "trashpanda-iphone.png",
     "order": 2
   },
   "devdesk": {
@@ -29,7 +29,7 @@
     "url": "https://front-end.skeeb32.now.sh",
     "github-be": "https://github.com/DevDesk-Queue-2/Back-End",
     "github-fe": "https://github.com/DevDesk-Queue-2/Back-End",
-    "img": "dev-desk.svg",
+    "img": "dev-desk-frontend.png",
     "order": 3
   }
 }
