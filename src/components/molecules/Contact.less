@@ -28,8 +28,10 @@
   &__social {
     display: flex;
     flex-flow: row nowrap;
-    // justify-content: space-evenly;
-    //   margin-top: 98px;
     margin-bottom: 68px;
+
+    @media (max-width: 500px) {
+      margin-left: -10px;
+    }
   }
 }
