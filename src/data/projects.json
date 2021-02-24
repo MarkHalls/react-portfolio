@@ -5,8 +5,8 @@
     "description": "Learn OER is a search engine for finding free to read books online. Search for fiction, non-fiction and textbooks and the odds are good that you'll find a result that is freely available.",
     "contribution": "Learn OER is a personal project of mine inspired by a Lambda School assignment. I created everything from the UI to the backend API.",
     "url": "https://learnoer.com",
-    "github-fe": "https://github.com/mark-halls/learnoer-web",
-    "github-be": "https://github.com/mark-halls/learnoer-api",
+    "github-fe": "https://github.com/MarkHalls/learnoer-web",
+    "github-be": "https://github.com/MarkHalls/learnoer-api",
     "img": "learnoer.com_results.png",
     "order": 1
   },
