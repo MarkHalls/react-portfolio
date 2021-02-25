@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mark-halls/react-portfolio.git"
+    "url": "git+https://github.com/MarkHalls/react-portfolio.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mark-halls/react-portfolio/issues"
+    "url": "https://github.com/MarkHalls/react-portfolio/issues"
   },
-  "homepage": "https://github.com/mark-halls/react-portfolio#readme",
+  "homepage": "https://github.com/MarkHalls/react-portfolio#readme",
   "devDependencies": {
     "classnames": "^2.2.6",
     "less": "^3.12.2",

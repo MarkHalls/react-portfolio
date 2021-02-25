@@ -21,12 +21,12 @@ const NavBar = () => {
       <div className={classNames(`${className}__social`)}>
         <SocialLink
           name="GitHub"
-          url="https://github.com/mark-halls"
+          url="https://github.com/MarkHalls"
           img="/img/github-icon.svg"
         />
         <SocialLink
           name="LinkedIn"
-          url="https://github.com/mark-halls"
+          url="https://www.linkedin.com/in/mark-halls"
           img="/img/linkedin-icon.svg"
         />
         <SocialLink
