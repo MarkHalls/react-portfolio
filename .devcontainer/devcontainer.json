@@ -1,0 +1,23 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/base:1.0.0-bookworm",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "denoland.vscode-deno",
+        "eamodio.gitlens"
+      ]
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "true",
+      "username": "vscode",
+      "userUid": "1000",
+      "userGid": "1000"
+    },
+    "ghcr.io/devcontainers-contrib/features/deno:1": {
+      "version": "latest"
+    }
+  },
+  "remoteUser": "vscode"
+}
