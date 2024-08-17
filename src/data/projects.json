@@ -7,7 +7,8 @@
     "url": "https://easy-rss.deno.dev/",
     "github-fe": "https://github.com/AlwaysBeCrafting/easy-rss",
     "img": "easyrss.webp",
-    "order": 1,
+    "order": 1
+  },
 
   "learnoer": {
     "name": "Learn OER",
