@@ -15,7 +15,7 @@ const NavBar = () => {
           Full-Stack Web Developer
         </h2>
         <h2 className={classNames(`${className}__about__me`)}>
-          I love open source and have a passion for functional programming.
+          I love open source and have a passion for functional style programming.
         </h2>
       </div>
       <div className={classNames(`${className}__social`)}>
