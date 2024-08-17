@@ -1,5 +1,6 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/base:1.0.0-bookworm",
+  //"image": "mcr.microsoft.com/devcontainers/base:1.0.0-bookworm",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:0-18-bullseye",
   "customizations": {
     "vscode": {
       "extensions": [

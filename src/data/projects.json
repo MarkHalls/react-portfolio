@@ -1,4 +1,14 @@
 {
+  "easy-rss": {
+    "name": "Easy-RSS",
+    "role": "Back-end Developer",
+    "description": "Easy-RSS is an RSS feed subscription aggregator. Quickly and easily manage multiple feeds and view new articles for your favorite websites.",
+    "contribution": "I created Easy-RSS with a friend. We'd been dissatisfied with existing services and wanted to create something new using Deno services. I implemented the backend with a focus on DenoKv for feed persistence.",
+    "url": "https://easy-rss.deno.dev/",
+    "github-fe": "https://github.com/AlwaysBeCrafting/easy-rss",
+    "img": "easyrss.webp",
+    "order": 1,
+
   "learnoer": {
     "name": "Learn OER",
     "role": "Front-end / Back-end Developer",
@@ -8,8 +18,9 @@
     "github-fe": "https://github.com/MarkHalls/learnoer-web",
     "github-be": "https://github.com/MarkHalls/learnoer-api",
     "img": "learnoer.com_results.png",
-    "order": 1
+    "order": 2
   },
+
   "trashpanda": {
     "name": "Trash Panda",
     "role": "Front-end / Back-end Developer, Project Coordinator",
@@ -19,8 +30,9 @@
     "github-fe": "https://github.com/Lambda-School-Labs/trashpanda-fe",
     "github-be": "https://github.com/Lambda-School-Labs/trashpanda-be",
     "img": "trashpanda-iphone.png",
-    "order": 2
+    "order": 3
   },
+
   "devdesk": {
     "name": "Dev-Desk Queue",
     "role": "Back-end Developer",
@@ -30,6 +42,6 @@
     "github-be": "https://github.com/DevDesk-Queue-2/Back-End",
     "github-fe": "https://github.com/DevDesk-Queue-2/Back-End",
     "img": "dev-desk-frontend.png",
-    "order": 3
+    "order": 4
   }
 }
