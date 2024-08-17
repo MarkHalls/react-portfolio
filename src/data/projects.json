@@ -3,7 +3,7 @@
     "name": "Easy-RSS",
     "role": "Back-end Developer",
     "description": "Easy-RSS is an RSS feed subscription aggregator. Quickly and easily manage multiple feeds and view new articles for your favorite websites.",
-    "contribution": "I created Easy-RSS with a friend. We'd been dissatisfied with existing services and wanted to create something new using Deno services. I implemented the backend with a focus on DenoKv for feed persistence.",
+    "contribution": "I created Easy-RSS with a friend. We'd been dissatisfied with existing services and wanted to create something new using the Deno platform. I implemented the backend with a focus on DenoKv for feed persistence.",
     "url": "https://easy-rss.deno.dev/",
     "github-fe": "https://github.com/AlwaysBeCrafting/easy-rss",
     "img": "easyrss.webp",
